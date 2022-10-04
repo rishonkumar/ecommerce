@@ -1,7 +1,13 @@
 import React from "react";
+import styled from "styled-components";
+import HeroSection from "./components/HeroSection";
 
 const Home = () => {
-  return <div>Home</div>;
+  const data = {
+    name: "Store",
+  };
+
+  return <HeroSection myData={data} />;
 };
 
 export default Home;
